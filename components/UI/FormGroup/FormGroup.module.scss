@@ -1,0 +1,8 @@
+.Sm {
+    font-size: 0.7rem;
+
+    &~input,
+    &~select {
+        font-size: .7rem;
+    }
+}

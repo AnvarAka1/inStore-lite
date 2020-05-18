@@ -1,0 +1,30 @@
+.Form {
+    input {
+        width: 20rem;
+        padding-left: 35px;
+
+    }
+
+    img {
+        height: 1rem;
+    }
+}
+
+.Button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+
+    &:active,
+    &:hover,
+    &:focus {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+}

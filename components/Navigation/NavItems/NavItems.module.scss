@@ -1,0 +1,23 @@
+.NavItems {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+
+    &>div {
+        cursor: pointer;
+        margin-left: .5rem;
+    }
+}
+
+.CartRadius {
+    background: #FFFFFF;
+    border: 0.5px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 6px;
+    text-align: center;
+    line-height: normal;
+    box-shadow: -5px -5px 10px #EDEDED, 5px 5px 10px rgba(0, 0, 0, 0.25), inset -2px -2px 3px rgba(117, 117, 117, 0.25);
+
+}

@@ -1,0 +1,32 @@
+.Footer {
+    text-align: center;
+    background: #F0F0F0;
+    width: 100%;
+    padding: 15px 0 50px;
+    margin-top: 20px;
+
+
+
+    .Social {
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li {
+            div {
+                background-color: var(--accent);
+                border-radius: 50%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+
+                img {
+                    width: .75rem;
+                }
+            }
+        }
+    }
+}
